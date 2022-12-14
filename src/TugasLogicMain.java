@@ -1,6 +1,7 @@
+import Logic.Logic1;
+import Logic.Logic2;
 import day2.Logic01S1;
 import day2.Logic02S9;
-import logic1.Logic1;
 
 public class TugasLogicMain {
     public static void main(String[] args) {
@@ -18,8 +19,8 @@ public class TugasLogicMain {
         logic1.cetakSoal10();
 
         System.out.println(" Logic 02");
-        Logic02S9 logic02Soal09 = new Logic02S9(9);
-        logic02Soal09.cetakArray();
+        Logic2 logic2 = new Logic2(9);
+        logic2.cetakSoal1();
 
         // System.out.println("\n\nSample Logic 02 Soal 09");
         // Logic02S2 logic02Soal02 = new Logic02S2(9);

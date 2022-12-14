@@ -1,4 +1,4 @@
-package logic1;
+package Logic;
 
 public class Logic1 extends BasicLogic {
     public Logic1(int n) {
