@@ -9,7 +9,7 @@ public class MainProduct {
         Product product3 = new Product(3, "Nasi Rendang", 20000);
         product3.showPrice();
 
-        Product product4 = new Product();
+        // Product product4 = new Product();
 
     }
 }
