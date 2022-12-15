@@ -12,6 +12,14 @@ public class MainLogicInterface {
         LogicInterface logic1 = new Logic1(new BasicLogic(9));
         logic1.cetakArray();
         logic1.cetakArray2();
+        logic1.cetakArray3();
+        logic1.cetakArray4();
+        logic1.cetakArray5();
+        logic1.cetakArray6();
+        logic1.cetakArray7();
+        logic1.cetakArray8();
+        logic1.cetakArray9();
+        logic1.cetakArray10();
 
         // LogicInterface logic1soal2 = new Logic1Soal2(new BasicLogic(9));
         // logic1soal2.cetakArray();
