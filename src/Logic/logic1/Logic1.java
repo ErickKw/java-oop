@@ -1,4 +1,6 @@
-package Logic;
+package Logic.logic1;
+
+import Logic.BasicLogic;
 
 public class Logic1 extends BasicLogic {
     public Logic1(int n) {

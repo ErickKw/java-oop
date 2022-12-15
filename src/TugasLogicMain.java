@@ -1,7 +1,8 @@
-import Logic.Logic1;
-import Logic.Logic2;
+
 // import day2.Logic01S1;
 // import day2.Logic02S9;
+import Logic.logic1.Logic1;
+import Logic.logic2.Logic2;
 
 public class TugasLogicMain {
     public static void main(String[] args) {
