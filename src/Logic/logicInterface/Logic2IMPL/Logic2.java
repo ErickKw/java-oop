@@ -26,13 +26,16 @@ public class Logic2 implements LogicInterface {
 
     public void Soal2() {
         for (int i = 0; i < this.Logic.n; i++) {
-            int angka = 1;
             for (int j = 0; j < this.Logic.n; j++) {
-                if (j == 0 || i == 0 || i == this.Logic.n - 1 || j == this.Logic.n - 1 ||
-                        i == j || i + j == this.Logic.n - 1) {
-                    this.Logic.arrayLogic2[i][j] = String.valueOf(angka);
-                }
-                angka += 2;
+                if (j == 0)
+                    this.Logic.arrayLogic2[i][j] = String.valueOf(1);
+                else if (i == 0 && j >= 1)
+                    this.Logic.arrayLogic2[i][j] = String
+                            .valueOf(Integer.parseInt(this.Logic.arrayLogic2[i][j - 1]) + 2);
+                else if (j == this.Logic.n - 1 || i == this.Logic.n - 1)
+                    this.Logic.arrayLogic2[i][j] = this.Logic.arrayLogic2[0][j];
+                else
+                    this.Logic.arrayLogic2[i][j] = "";
             }
         }
     }
