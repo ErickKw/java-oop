@@ -1,3 +1,4 @@
+package JavaBasic;
 public class Looping {
     public static void main(String[] args) {
         sample02(11);

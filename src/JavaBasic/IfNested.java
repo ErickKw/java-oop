@@ -1,3 +1,6 @@
+package JavaBasic;
+
+
 public class IfNested {
     public static void main(String[] args) {
         nestedIf(10);

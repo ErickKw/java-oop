@@ -1,3 +1,5 @@
+package JavaBasic;
+
 public class PrintArray {
     public static void print(int[] array){
         for (int i = 0; i < array.length; i++) {
