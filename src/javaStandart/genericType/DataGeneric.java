@@ -1,4 +1,4 @@
-package genericType;
+package javaStandart.genericType;
 
 public class DataGeneric<T> {
     private T data;

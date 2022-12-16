@@ -1,4 +1,4 @@
-package stringClass;
+package javaStandart.stringClass;
 
 import java.util.ArrayList;
 import java.util.List;

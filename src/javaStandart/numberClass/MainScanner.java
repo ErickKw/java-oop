@@ -1,4 +1,4 @@
-package numberClass;
+package javaStandart.numberClass;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

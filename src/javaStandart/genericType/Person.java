@@ -1,4 +1,4 @@
-package genericType;
+package javaStandart.genericType;
 
 public class Person {
     private String name;

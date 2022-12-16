@@ -1,4 +1,4 @@
-package genericType;
+package javaStandart.genericType;
 
 public class MainData {
     public static void main(String[] args) {

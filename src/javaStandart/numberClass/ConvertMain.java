@@ -1,4 +1,4 @@
-package numberClass;
+package javaStandart.numberClass;
 
 public class ConvertMain {
     public static void main(String[] args) {

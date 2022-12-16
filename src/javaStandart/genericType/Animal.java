@@ -1,4 +1,4 @@
-package genericType;
+package javaStandart.genericType;
 
 public class Animal {
     private String name;

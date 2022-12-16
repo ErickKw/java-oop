@@ -1,4 +1,4 @@
-package genericType;
+package javaStandart.genericType;
 
 import java.util.StringJoiner;
 
