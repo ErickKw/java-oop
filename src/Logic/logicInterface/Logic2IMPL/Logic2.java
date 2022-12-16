@@ -1,9 +1,9 @@
 package Logic.logicInterface.Logic2IMPL;
 
 import Logic.BasicLogic;
-import Logic.logicInterface.LogicInterface;
+import Logic.logicInterface.LogicInterface02;
 
-public class Logic2 implements LogicInterface {
+public class Logic2 implements LogicInterface02 {
   private final BasicLogic Logic;
 
   public Logic2(BasicLogic logic) {
@@ -77,25 +77,25 @@ public class Logic2 implements LogicInterface {
   }
 
   @Override
-  public void cetakArray() {
+  public void cetakArrayLogic201() {
     this.Soal1();
     this.Logic.printLogic2();
   }
 
   @Override
-  public void cetakArray2() {
+  public void cetakArrayLogic202() {
     this.Soal2();
     this.Logic.printLogic2();
   }
 
   @Override
-  public void cetakArray3() {
+  public void cetakArrayLogic203() {
     this.Soal3();
     this.Logic.printLogic2();
   }
 
   @Override
-  public void cetakArray4() {
+  public void cetakArrayLogic204() {
     this.Soal4();
     this.Logic.printLogic2();
   }
