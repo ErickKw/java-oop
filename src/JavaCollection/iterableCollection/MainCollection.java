@@ -1,6 +1,6 @@
 package JavaCollection.iterableCollection;
 
-import model.Person;
+import JavaCollection.model.Person;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.List;
 
 public class MainCollection {
-    public static void main(String[] args) {
+    public static vo4id main(String[] args) {
         Collection<String> names = new ArrayList<>();
         names.add("Bang Jindan");
         names.add("Udin");

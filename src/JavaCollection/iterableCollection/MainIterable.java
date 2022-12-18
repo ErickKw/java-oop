@@ -1,6 +1,6 @@
 package JavaCollection.iterableCollection;
 
-import model.Person;
+import JavaCollection.model.Person;
 
 import java.util.Arrays;
 import java.util.Iterator;

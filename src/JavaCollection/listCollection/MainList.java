@@ -1,6 +1,6 @@
 package JavaCollection.listCollection;
 
-import model.Person;
+import JavaCollection.model.Person;
 
 import java.util.ArrayList;
 import java.util.Arrays;
