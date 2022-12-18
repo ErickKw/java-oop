@@ -6,8 +6,6 @@ import java.util.Map;
 public class MainMapInterface {
     public static void main(String[] args) {
         Map<String, mapCountry> map = new HashMap<>();
-
-//        mapCountry country = new mapCountry(1, "USA", "America");
         map.put("Ind", new mapCountry(1, "ID","Indonesia"));
         map.put("AF", new mapCountry(2, "AF","Afghanistan"));
         map.put("AR", new mapCountry(3, "AR","Argentina"));
