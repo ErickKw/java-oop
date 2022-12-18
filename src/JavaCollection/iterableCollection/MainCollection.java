@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.List;
 
 public class MainCollection {
-    public static vo4id main(String[] args) {
+    public static void main(String[] args) {
         Collection<String> names = new ArrayList<>();
         names.add("Bang Jindan");
         names.add("Udin");
