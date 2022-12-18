@@ -2,6 +2,7 @@ package JavaCollection.model;
 
 import java.util.List;
 import java.util.StringJoiner;
+import java.util.Map;
 
 public class Person {
     private int id;
@@ -20,6 +21,7 @@ public class Person {
         this.name = name;
         this.city = city;
     }
+
 
     public int getId() {
         return id;
@@ -55,12 +57,12 @@ public class Person {
 
     @Override
     public String toString() {
-        return new StringJoiner(", ", Person.class.getSimpleName() + "[", "]")
-                .add("id=" + id)
-                .add("name='" + name + "'")
-                .add("city='" + city + "'")
-                .add("hobbies='" + hobbies)
-                .toString();
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", city='" + city + '\'' +
+                ", hobbies=" + hobbies +
+                '}';
     }
 
 }
